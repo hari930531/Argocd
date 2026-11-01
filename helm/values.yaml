@@ -1,0 +1,9 @@
+replicas: 3
+image: hari930531/basic-calculator:1.0
+port: 5000
+
+calculatorService:
+  type: NodePort
+  port: 5000
+  targetPort: 5000
+  nodePort: 30000

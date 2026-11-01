@@ -1,0 +1,10 @@
+replicas: 5
+image: hari930531/basic-calculator:1.1
+imagePullPolicy: always
+port: 5000
+
+calculatorService:
+   type: NodePort
+   port: 80
+   targetPort: 5000
+   nodePort: 30081
