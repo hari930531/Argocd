@@ -1,4 +1,4 @@
-replicas: 3
+replicas: 2
 image: hari930531/basic-calculator:1.0
 port: 5000
 
